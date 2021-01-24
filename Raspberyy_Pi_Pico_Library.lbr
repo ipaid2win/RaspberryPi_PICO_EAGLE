@@ -132,13 +132,13 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="RASPBERRY_PI_PICO_FOOTPRINT" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.oenTI0TVTXmkl08YYQnOFQ?version=3" footprint_name="RASPBERRY_PI_PICO_FOOTPRINT" locally_modified="yes" type="model">
+<package3d name="RASPBERRY_PI_PICO_FOOTPRINT" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.oenTI0TVTXmkl08YYQnOFQ?version=4" footprint_name="RASPBERRY_PI_PICO_FOOTPRINT" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="RASPBERRY_PI_PICO_FOOTPRINT"/>
 </packageinstances>
 <metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
-<package3d name="RASPBERRY_PI_PICO_FOOTPRINT_HEADERS" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.Lq_9Z1fHQ_a_Ryv5NSBozg?version=2" footprint_name="RASPBERRY_PI_PICO_FOOTPRINT" locally_modified="yes" type="model">
+<package3d name="RASPBERRY_PI_PICO_FOOTPRINT_HEADERS" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.Lq_9Z1fHQ_a_Ryv5NSBozg?version=3" footprint_name="RASPBERRY_PI_PICO_FOOTPRINT" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="RASPBERRY_PI_PICO_FOOTPRINT"/>
 </packageinstances>
@@ -249,7 +249,7 @@
 <connect gate="G$1" pin="VSYS" pad="VSYS"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.oenTI0TVTXmkl08YYQnOFQ?version=3"/>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.oenTI0TVTXmkl08YYQnOFQ?version=4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -309,7 +309,7 @@
 <connect gate="G$1" pin="VSYS" pad="VSYS"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.Lq_9Z1fHQ_a_Ryv5NSBozg?version=2"/>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.Lq_9Z1fHQ_a_Ryv5NSBozg?version=3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
