@@ -10,4 +10,4 @@ There should be two versions/packages: One with direct contact via castellated h
 
 <img src="https://github.com/ipaid2win/RaspberryPi_PICO_EAGLE/blob/main/Images/Pico_LIB.png" width="400">  <img src="https://github.com/ipaid2win/RaspberryPi_PICO_EAGLE/blob/main/Images/Pico_LIB_Header.png" width="400"> 
 
-
+Created with Fusion360 and exported as Eagle Library, haven't opened it in Eagle yet.
