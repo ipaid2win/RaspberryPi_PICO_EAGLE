@@ -138,6 +138,12 @@
 </packageinstances>
 <metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
+<package3d name="RASPBERRY_PI_PICO_FOOTPRINT_HEADERS" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.Lq_9Z1fHQ_a_Ryv5NSBozg?version=2" footprint_name="RASPBERRY_PI_PICO_FOOTPRINT" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="RASPBERRY_PI_PICO_FOOTPRINT"/>
+</packageinstances>
+<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="RASPBERRY_PI_PICO_SYM">
@@ -244,6 +250,66 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.oenTI0TVTXmkl08YYQnOFQ?version=3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RASPBERRY_PI_PICO-HEADERS" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RASPBERRY_PI_PICO_SYM" x="-30.48" y="55.88"/>
+</gates>
+<devices>
+<device name="" package="RASPBERRY_PI_PICO_FOOTPRINT">
+<connects>
+<connect gate="G$1" pin="3V3(OUT)" pad="3V3(OUT)"/>
+<connect gate="G$1" pin="3V3_EN" pad="3V3_EN"/>
+<connect gate="G$1" pin="ADC_GND" pad="ADC_GND"/>
+<connect gate="G$1" pin="ADC_VREF" pad="ADC_VREF"/>
+<connect gate="G$1" pin="GND@0" pad="GND@0"/>
+<connect gate="G$1" pin="GND@13" pad="GND@13"/>
+<connect gate="G$1" pin="GND@18" pad="GND@18"/>
+<connect gate="G$1" pin="GND@23" pad="GND@23"/>
+<connect gate="G$1" pin="GND@28" pad="GND@28"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GND@38" pad="GND@38"/>
+<connect gate="G$1" pin="GND@8" pad="GND@8"/>
+<connect gate="G$1" pin="GP0" pad="GP0"/>
+<connect gate="G$1" pin="GP1" pad="GP1"/>
+<connect gate="G$1" pin="GP10" pad="GP10"/>
+<connect gate="G$1" pin="GP11" pad="GP11"/>
+<connect gate="G$1" pin="GP12" pad="GP12"/>
+<connect gate="G$1" pin="GP13" pad="GP13"/>
+<connect gate="G$1" pin="GP14" pad="GP14"/>
+<connect gate="G$1" pin="GP15" pad="GP15"/>
+<connect gate="G$1" pin="GP16" pad="GP16"/>
+<connect gate="G$1" pin="GP17" pad="GP17"/>
+<connect gate="G$1" pin="GP18" pad="GP18"/>
+<connect gate="G$1" pin="GP19" pad="GP19"/>
+<connect gate="G$1" pin="GP2" pad="GP2"/>
+<connect gate="G$1" pin="GP20" pad="GP20"/>
+<connect gate="G$1" pin="GP21" pad="GP21"/>
+<connect gate="G$1" pin="GP22" pad="GP22"/>
+<connect gate="G$1" pin="GP26_ADC0" pad="GP26_ADC0"/>
+<connect gate="G$1" pin="GP27_ADC1" pad="GP27_ADC1"/>
+<connect gate="G$1" pin="GP28_ADC2" pad="GP28_ADC2"/>
+<connect gate="G$1" pin="GP3" pad="GP3"/>
+<connect gate="G$1" pin="GP4" pad="GP4"/>
+<connect gate="G$1" pin="GP5" pad="GP5"/>
+<connect gate="G$1" pin="GP6" pad="GP6"/>
+<connect gate="G$1" pin="GP7" pad="GP7"/>
+<connect gate="G$1" pin="GP8" pad="GP8"/>
+<connect gate="G$1" pin="GP9" pad="GP9"/>
+<connect gate="G$1" pin="RUN" pad="RUN"/>
+<connect gate="G$1" pin="SWCLK" pad="SWCLK"/>
+<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+<connect gate="G$1" pin="VSYS" pad="VSYS"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.Lq_9Z1fHQ_a_Ryv5NSBozg?version=2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
