@@ -16,4 +16,3 @@ I also made versions without PTH for the 3 debug pins at the bottom as well as a
 
 
 
-Created with Fusion360 and exported as Eagle Library, haven't opened it in Eagle yet. File size looks rather small, no idea if the 3D packages were exported too.
